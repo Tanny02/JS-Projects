@@ -47,7 +47,7 @@ button:hover{
     background-color: #ff4136;
 }
 
-.number, .decimal{
+.number{
     background-color: #fff;
     color: #333;
 }
@@ -60,5 +60,15 @@ button:hover{
 .equals{
     background-color: #01ff70;
     grid-row: span 3;
+    color: #fff;
+}
+
+.decimal{
+    background-color: #b3c0c4;
+    color: #fff;
+}
+
+.back{
+    background-color: #c3e70f;
     color: #fff;
 }
