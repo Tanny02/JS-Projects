@@ -60,6 +60,16 @@ form{
     margin: 0 auto;
 }
 
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+
 .search-result{
     margin-bottom: 60px;
     width: 30%;
@@ -98,7 +108,7 @@ form{
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-    display: block;
+    display: none;
     margin: 20px auto;
     text-align: center;
     transition: background-color 0.1s ease;
