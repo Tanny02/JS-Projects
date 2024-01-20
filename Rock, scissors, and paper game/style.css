@@ -57,3 +57,9 @@ button:hover{
 #computer-score{
     color: #ff0000;
 }
+
+#reset{
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 47%;
+}
