@@ -44,3 +44,8 @@ button:hover{
     background-color: #963156;
     box-shadow: 2px 2px 10px rgba(0,0,0,.5);
 }
+
+button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
