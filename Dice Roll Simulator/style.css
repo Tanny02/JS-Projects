@@ -11,6 +11,21 @@ h1{
 .dice{
     font-size: 7rem;
     margin: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.roll-animation{
+    animation-name: roll;
+}
+
+@keyframes roll{
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(720deg) rotateY(720deg);
+    }
 }
 
 button{
