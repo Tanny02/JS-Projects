@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.dice{
+    font-size: 7rem;
+    margin: 5px;
+}
+
+button{
+    background-color: #47a5c4;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color .3 ease;
+}
+
+button:hover{
+    background-color: #2e8baf;
+}
+
+ul{
+    list-style: none;
+    margin: 2rem auto;
+    padding: 0;
+    max-width: 600px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+li span{
+    font-size: 3rem;
+    margin-right: 1rem;
+}
