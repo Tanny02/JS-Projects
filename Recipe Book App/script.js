@@ -11,13 +11,16 @@ async function fetchData() {
         const data = await response.json();
         
         displayRecipes(data.recipes);
-    } catch (error) {
+    } 
+    
+    catch (error) {
+
         console.error(error);
+
     }
 
 }
 
-fetchData();
 function displayRecipes (recipes){
 
     recipes.forEach((recipe) => {
@@ -50,4 +53,4 @@ function displayRecipes (recipes){
 
 }
 
-
+fetchData();
