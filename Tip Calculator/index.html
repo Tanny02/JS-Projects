@@ -7,5 +7,23 @@
     <script src="script.js" defer></script>
     <title>Tip Calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Tip Calculator</h1>
+      <p>Enter amount and tip percentage to calculate the total</p>
+      <label for="bill-amount">Bill Amount:</label>
+      <input type="number" id="bill-amount" />
+      <br />
+      <label for="tip-percentage">Tip Percentage:</label>
+      <input type="number" id="tip-percentage" />
+      <br />
+      <label for="number-of-people">Number of People:</label>
+      <input type="number" id="number-of-people" />
+      <br />
+      <button type="button" id="calculate-tip">Calculate Tip</button>
+      <br />
+      <label for="total-amount">Total: </label>
+      <span id="total-amount"></span>
+    </div>
+  </body>
 </html>
