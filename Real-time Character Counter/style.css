@@ -26,6 +26,7 @@ body {
     font-size: 18px;
     border: 2px solid darkgrey;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .counter {
