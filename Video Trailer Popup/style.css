@@ -43,12 +43,6 @@ body{
     align-items: center;
 }
 
-.trailer-container video {
-    position: relative;
-    max-width: 900px;
-    outline: none;
-}
-
 .btn {
     background-color: white;
     border: none;
@@ -61,6 +55,12 @@ body{
 .btn:hover {
     background-color: orange;
     color: white;
+}
+
+.trailer-container video {
+    position: relative;
+    max-width: 900px;
+    outline: none;
 }
 
 .close-icon {
