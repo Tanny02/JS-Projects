@@ -24,7 +24,7 @@ h1 {
     margin-top: 100px;
 }
 
-button {
+.btn {
     width: 200px;
     height: 100px;
     border: none;
@@ -35,36 +35,13 @@ button {
     margin: 20px 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transition: boxShadow 0.3s ease-in-out;
+    text-transform: capitalize;
 }
 
-button:hover {
+.btn:hover {
     box-shadow: 0 4px 8px rgb(204, 241, 21);
 }
 
-.snare-btn {
-    background: url("https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    overflow: hidden;
-}
-
-.kick-btn { 
-    background: url("https://images.unsplash.com/photo-1676912004492-0fa09f28fe2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    overflow: hidden;
-}
-
-.crash-btn {
-    background: url("https://images.unsplash.com/photo-1579875145424-7b097f0bbd50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    overflow: hidden;
-}
-
-.tom-btn {
-    background: url("https://images.unsplash.com/photo-1701590223282-f137316edea0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    overflow: hidden;
-}
-
-button:active {
+.btn:active {
     background-size: 110%;
 }
