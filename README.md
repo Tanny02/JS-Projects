@@ -28,17 +28,11 @@ The following projects:-
 22 - Random Photos
 23 - Image Slider
 24 - Dark Mode Toggle
-25 - Auto Text Effect Animation
-26 - Tabs Section
-27 - Dad Jokes Generator
-28- Feedback UI
-29- English Dictionary
-30- Random Quote Generator
-31- Anime Pics Generator
-32- Random Emoji
-33- Temperature Converter
-34- BMI Calculator
-35- Note App
-36- Currency Converter
-37- Loan Calculator
-38- Weight Converter
+25 - Tabs Section
+26 - Dad Jokes Generator
+27 - Feedback UI
+28 - English Dictionary
+29 - Random Quote Generator
+30 - Anime Pics Generator
+31 - Random Emoji
+32 - Note App
