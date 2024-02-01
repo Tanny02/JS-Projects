@@ -25,14 +25,12 @@ The following projects:-
 19 - Blurred Background Popup
 20 - Background Image Scroll Effect
 21 - Drum Kits
-22 - Random Photos
-23 - Image Slider
-24 - Dark Mode Toggle
-25 - Tabs Section
-26 - Dad Jokes Generator
-27 - Feedback UI
-28 - English Dictionary
-29 - Random Quote Generator
-30 - Anime Pics Generator
-31 - Random Emoji
-32 - Note App
+22 - Image Slider
+23 - Dark Mode Toggle
+24 - Dad Jokes Generator
+25 - Feedback UI
+26 - English Dictionary
+27 - Random Quote Generator
+28 - Anime Pics Generator
+29 - Random Emoji
+30 - Note App
