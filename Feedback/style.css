@@ -37,7 +37,9 @@ body {
     transition: all 300ms ease-in-out;
 }
 
-.ratings:hover {
+.ratings:hover,
+.ratings.active 
+{
     background-color: darkseagreen;
     color: white;
     border-radius: 10px;
