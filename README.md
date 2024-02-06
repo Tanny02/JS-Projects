@@ -31,6 +31,4 @@ The following projects:-
 25 - Feedback UI
 26 - English Dictionary
 27 - Random Quote Generator
-28 - Anime Pics Generator
-29 - Random Emoji
-30 - Note App
+28 - Note App
