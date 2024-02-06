@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left, lightblue, lightgreen);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    color: darkblue;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.info-text {
+    color: darkblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.note {
+    padding: 20px;
+    font-size: 18px;
+    height: 200px;
+    border: none;
+    outline: none;
+    color: darkblue;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.note::placeholder {
+    color: grey;
+    opacity: 40%;
+    text-align: center;
+}
+
+.note:hover, .note:focus, .note:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    height: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
